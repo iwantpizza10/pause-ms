@@ -26,5 +26,8 @@
 			"default": 100,
 			"description": "Defines the threshold for trickery (in milliseconds)"
 		}
+	},
+	"links": {
+		"source": "https://github.com/iwantpizza10/pause-ms"
 	}
 }
