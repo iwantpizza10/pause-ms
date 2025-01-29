@@ -47,7 +47,8 @@ class $modify(BetterPlayLayer, PlayLayer) {
 			if (trickery == true && elapsed <= trickerythreshold) {
 				PlayLayer::pauseGame(p0);
 
-				FMODAudioEngine::get()->stopAllEffects(); // prevent death sound from playing when in pause screen
+				FMODAudioEngine::get()->stopAllEffects(); // no death sound effect in the pause screen
+				FMODAudioEngine::get()->resumeAllEffects(); // allow other sound to be played
 				FMODAudioEngine::get()->playEffect("achievement_01.ogg");
 			} else {
 				PlayLayer::pauseGame(p0);
