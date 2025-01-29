@@ -1,0 +1,30 @@
+{
+	"geode": "4.1.2",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "iwantpizza.pause_ms",
+	"name": "Pause MS",
+	"version": "v1.0.0",
+	"developer": "iwantpizza",
+	"description": "Reveals delay between death and game pause",
+	"settings": {
+		"trickery": {
+			"name": "Enable Trickery",
+			"type": "bool",
+			"default": false,
+			"description": "Determines whether trickery should be enabled or not"
+		},
+		"trickery-threshold": {
+			"name": "Trickery Threshold",
+			"type": "int",
+			"max": 500,
+			"min": 0,
+			"default": 100,
+			"description": "Defines the threshold for trickery (in milliseconds)"
+		}
+	}
+}
