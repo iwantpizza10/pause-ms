@@ -49,7 +49,7 @@ class $modify(BetterPlayLayer, PlayLayer) {
 
 				FMODAudioEngine::get()->stopAllEffects(); // no death sound effect in the pause screen
 				FMODAudioEngine::get()->resumeAllEffects(); // allow other sound to be played
-				FMODAudioEngine::get()->playEffect("achievement_01.ogg");
+				FMODAudioEngine::get()->playEffect("achievement_01.ogg", 1, 1, 2);
 			} else {
 				PlayLayer::pauseGame(p0);
 			}
