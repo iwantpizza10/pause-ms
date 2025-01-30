@@ -8,7 +8,7 @@
 	},
 	"id": "iwantpizza.pause_ms",
 	"name": "Pause MS",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "iwantpizza",
 	"description": "Reveals delay between death and game pause",
 	"settings": {
